@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 import elogo from "../assets/elogo.jpg";
+
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-6">
