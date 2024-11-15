@@ -81,6 +81,14 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React"],
     status: "Paused",
   },
+  {
+    title: "ToDo Web App",
+    image: project3,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "React", "TailwindCSS", "Laravel"],
+    status: "Finished",
+  },
 ];
 
 export const CONTACT = {
