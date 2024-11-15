@@ -7,6 +7,7 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { RiReactjsLine } from "react-icons/ri";
+import { FaLaravel } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -94,6 +95,14 @@ const Technologies = () => {
           className="p-4"
         >
           <SiMongodb className="text-7xl text-green-600" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(6)}
+          className="p-4"
+        >
+          <FaLaravel className="text-7xl text-red-600" />
         </motion.div>
         <motion.div
           initial="initial"
